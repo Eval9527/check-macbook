@@ -18,12 +18,25 @@ $ npm i
 ## 选择轮训方式
 
 ### 监听全部
+启动之前需要设定筛选条件
+
+需要对 `check-all.js` 中的 `allResult` 进行修改
+
+默认监听 2020 + M1 + MacBook Air + 16G + 价格<￥10000 + 不是金色
+
 监听所有的
 
 ```shell
 $ node check-all.js
 ```
+
+
 ### 监听特定型号
+启动之前需要设定筛选条件
+
+需要对 `check-one.js` 中的 `name` 进行修改
+
+默认 G1274CH/A Air 星空灰 16+256
 
 ```shell
 $ node check-one.js
