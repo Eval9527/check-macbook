@@ -4,8 +4,8 @@ Apple 苹果中国官网上架翻新版 M1，库存不是很多，于是使用 n
 
 # 下载
 ```shell
-$ git clone 
-$ cd 
+$ git clone git@github.com:Pooc-J/check-macbook.git
+$ cd check-macbook
 $ npm i
 ```
 
