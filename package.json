@@ -1,0 +1,17 @@
+{
+  "name": "check-macbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "jquery": "^3.6.0",
+    "jsdom": "^16.5.1",
+    "querystring": "^0.2.1"
+  }
+}

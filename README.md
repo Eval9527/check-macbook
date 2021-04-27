@@ -1,0 +1,30 @@
+# node.js 监听 Apple Mac M1 翻新库存
+
+Apple 苹果中国官网上架翻新版 M1，库存不是很多，于是使用 node.js 写了一个粗糙的轮训监听，如果有库存将发送到 Server 酱
+
+# 下载
+```shell
+$ git clone 
+$ cd 
+$ npm i
+```
+
+# 使用方法
+
+## 修改 Server 酱的 Token
+
+去 `send-msg.js` 添加 `SERVER` 的 Token
+
+## 选择轮训方式
+
+### 监听全部
+监听所有的
+
+```shell
+$ node check-all.js
+```
+### 监听特定型号
+
+```shell
+$ node check-one.js
+```

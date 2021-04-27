@@ -1,0 +1,60 @@
+{
+  "tiles": [
+    {
+      "omnitureModel": {
+        "slotName": "",
+        "featureName": "Refurb",
+        "linkText": "AOS: home/refurbished/mac",
+        "partNumber": "FXNF2CH/A",
+        "basePartNumber": "FXNF2",
+        "commitCodeId": 0,
+        "customerCommitString": "有现货"
+      },
+      "productDetailsUrl": "/shop/product/FXNF2CH/A?fnode=a0c9b8de6b4186ad884f0773f1478ec874d142184f1423e73260581ab0b5f403953266eaf8174446c0dff6463e35965e8208e77b91f52d4add64b0bde264e8b22a4d691204210fdbb199b11ec03d0383",
+      "lob": "mac",
+      "sortOrder": 0,
+      "image": {
+        "scaleFactor": "RETINA",
+        "srcSet": {
+          "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/refurb-mac-mini-2018?wid=400&hei=400&fmt=jpeg&qlt=80&.v=1553797551145",
+          "scaleParams1": "wid=200&hei=200&fmt=jpeg&qlt=95&.v=1553797551145"
+        },
+        "attrs": "",
+        "alt": "",
+        "width": "200",
+        "height": "200",
+        "imageName": "refurb-mac-mini-2018",
+        "originalImageName": "refurb-mac-mini-2018",
+        "noImage": false,
+        "deferSrc": false
+      },
+      "sort": { "priceAsc": 0, "priceDesc": 230 },
+      "partNumber": "FXNF2CH/A",
+      "filters": {
+        "dimensions": {
+          "dimensionCapacity": "256gb",
+          "refurbClearModel": "macmini",
+          "dimensionRelYear": "2018",
+          "dimensionColor": "space_gray",
+          "tsMemorySize": "8gb"
+        }
+      },
+      "price": {
+        "priceFeeDisclaimer": "",
+        "priceCurrency": "CNY",
+        "partNumber": "FXNF2CH/A",
+        "showItemPropPrice": true,
+        "showItemPropAvailability": false,
+        "showPayPal": false,
+        "showDynamicFinancing": false,
+        "chooseDefaultPurchaseOption": false,
+        "seoPrice": 4809.0,
+        "refurbProduct": true,
+        "basePartNumber": "FXNF2",
+        "currentPrice": { "amount": "RMB 4,809", "raw_amount": "4809.00" },
+        "adjustedPrice": {}
+      },
+      "title": "翻新 Mac mini 3.6GHz 四核 Intel Core i3 - 深空灰色"
+    }
+  ]
+}
