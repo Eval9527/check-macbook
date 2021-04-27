@@ -1,7 +1,4 @@
 const axios = require('axios')
-// const jsdom = require("jsdom")
-// const jquery = require('jquery')
-// const { JSDOM } = jsdom
 const sendNotify = require('./send-msg').sendNotify
 
 async function checkStatus() {
@@ -11,10 +8,6 @@ async function checkStatus() {
     const result = await axios.get(URL)
 
     if (result.status === 200 ) {
-        // var $ = jquery(new JSDOM(result.data).window)
-        // const window = {}
-        // eval($('#refurbished-category-grid').prev().text().trim())
-
         const htmlData = result.data
         const dataJson = JSON.parse(
                             htmlData.match(/window.REFURB_GRID_BOOTSTRAP = (.+)/g)[0]
@@ -22,7 +15,6 @@ async function checkStatus() {
                                 .replace(';', '')
                             )
 
-        // const tiles = window.REFURB_GRID_BOOTSTRAP.tiles
         const tiles = dataJson.tiles
 
 
